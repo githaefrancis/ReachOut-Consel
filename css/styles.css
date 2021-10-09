@@ -1,28 +1,29 @@
 /* This file contains css rules for the website */
+
+/* Remove default margins */
 *{
   margin: 0;
 }
 html{
-  /* margin-top:0px ; */
   padding-top: 0px;
 }
-body{
-  margin-top: 0px; 
-  margin-left:0px;
-  margin-right: 0px;
-}
+/* css rules for the banner section */
 .banner_section{
 
   background-image: url("../depression.jpg");
   background-size: cover;
+  background-position: right;
   height:100vh;
   width: 100%;
 }
+/* css rules for the navigation bar */
 nav {
   height:80px;
   background-color: green;
   
 }
+
+/* Display navbar items horizontally and center them */
 nav ul{
 
   display:flex;
@@ -33,9 +34,22 @@ nav ul{
   transform: translate(0%,-50%);
   
 }
+/* add padding between the nav items */
 nav ul li {
   padding-left: 100px;
-  align-self: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  color:white;
+  font-weight: 700;
+  font-size: 18px;
   }
+
+/* Add css rule for sticky header */
+
+.sticky{
+  position: fixed;
+  top:0px;
+  opacity: 0.4;
+}
+
+.sticky ::after{
+  padding-top: 100px;
+}
