@@ -47,9 +47,17 @@ nav ul li {
 .sticky{
   position: fixed;
   top:0px;
-  opacity: 0.4;
+  opacity: 0.5;
+  width: 100%;
 }
 
 .sticky ::after{
   padding-top: 100px;
+}
+
+@media only screen and (max-width:400px){
+  .banner_section{
+    background-position: bottom;
+    height:300px;
+  }
 }
