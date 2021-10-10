@@ -22,7 +22,7 @@ html {
 /* css rules for the navigation bar */
 nav {
   height: 80px;
-  background-color: green;
+  background-color: #518819;
 }
 /* hide the hamburger menu icon on large display */
 #menu_icon {
@@ -75,7 +75,7 @@ nav #title {
 
   width:600px;
   color:white;
-  background-color:orange;
+  background-color:#F77731;
   float:right;
   position: relative;
   top:50%;
@@ -107,7 +107,7 @@ nav #title {
     margin-top: 0px;
     top:0px;
     left: -120px;
-    background-color:rgba(210, 215, 211, 0.9);
+    background-color:#F7F7F7;
     padding-top: 20px;
     width: 300px;
     height:100vh;
@@ -139,7 +139,7 @@ nav #title {
 
     width:fit-content;
     color:white;
-    background-color:orange;
+    background-color:#F77731;
     position: relative;
     top:455px;
     right:0%;
