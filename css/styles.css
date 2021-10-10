@@ -58,9 +58,9 @@ nav ul li {
   width: 100%;
 }
 
-.sticky ::after {
+/* .sticky:after {
   padding-top: 100px;
-}
+} */
 
 /* Site title */
 nav #title {
@@ -113,6 +113,7 @@ nav #title {
     height:100vh;
     transform: translate(0,0);
     border:0;
+    z-index: 3;
     
   }
   #menu_links li{
@@ -133,5 +134,27 @@ nav #title {
   /* Adjust the site title font for mobile view. */
   nav #title {
     font-size: 24px;
+  }
+  .introduction{
+
+    width:fit-content;
+    color:white;
+    background-color:orange;
+    position: relative;
+    top:455px;
+    right:0%;
+    height:fit-content; 
+    transform: translate(0%,-50%);
+    margin-top: 0px;
+  }
+  .introduction #heading{
+    text-align: center;
+    margin-top: 40%;
+    transform: translate(0%,-50%);
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:18px;
+    font-weight: 500;
+    height: fit-content;
   }
 }
