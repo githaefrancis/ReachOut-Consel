@@ -1,9 +1,14 @@
 /* Stories,features and video*/
 .educational_videos_section{
-    background-color: #518819;
+    
+    background-color: #f7f7f7;
 }
 .col-sm-6{
-background-color: #f7f7f7;
+background-color: #518819;
 padding: 20PX;
 margin: auto;
+}
+
+.row{
+    background-color: grey;
 }
