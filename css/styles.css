@@ -3,6 +3,10 @@
 /* Remove default margins */
 * {
   margin: 0;
+  
+}
+body{
+  overflow-x: hidden;
 }
 html {
   padding-top: 0px;
@@ -66,6 +70,27 @@ nav #title {
   transform: translate(0, -50%);
   font-size: 36px;
   padding-left: 20px;
+}
+.introduction{
+
+  width:600px;
+  color:white;
+  background-color:orange;
+  float:right;
+  position: relative;
+  top:50%;
+  right:10%;
+  height:450px;
+  transform: translate(0%,-50%);
+}
+.introduction #heading{
+  text-align: center;
+  margin-top: 40%;
+  transform: translate(0%,-50%);
+  padding-left:10px;
+  padding-right: 10px;
+  font-size:32px;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 400px) {
