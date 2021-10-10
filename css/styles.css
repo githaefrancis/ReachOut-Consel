@@ -1,1 +1,9 @@
-/* This file contains css rules for the website */
+/* Stories,features and video*/
+.educational_videos_section{
+    background-color: #518819;
+}
+.col-sm-6{
+background-color: #f7f7f7;
+padding: 20PX;
+margin: auto;
+}
