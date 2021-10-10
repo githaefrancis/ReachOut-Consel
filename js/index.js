@@ -6,7 +6,6 @@ window.onscroll = function () {
 
 var nav = document.getElementById("nav");
 
-
 // Get the position of the navbar
 var stickyNav = nav.offsetTop;
 
@@ -19,5 +18,16 @@ function makeSticky() {
     nav.classList.remove("sticky");
   }
 }
+// show and hide menu in mobile view
+function showMenu(){
+  var menuLinks=document.getElementById("menu_links");
+  if (menuLinks.style.display==="block"){
+    menuLinks.style.display="none";
+    console.log("to block");
+  }
+  else{
+    menuLinks.style.display="block";
+    console.log("to block");
+  }
 
-
+}

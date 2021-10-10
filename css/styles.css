@@ -1,81 +1,112 @@
 /* This file contains css rules for the website */
 
 /* Remove default margins */
-*{
+* {
   margin: 0;
 }
-html{
+html {
   padding-top: 0px;
 }
 /* css rules for the banner section */
-.banner_section{
-
+.banner_section {
   background-image: url("../depression.jpg");
   background-size: cover;
   background-position: right;
-  height:100vh;
+  height: 100vh;
   width: 100%;
 }
 /* css rules for the navigation bar */
 nav {
-  height:80px;
+  height: 80px;
   background-color: green;
-  
 }
 /* hide the hamburger menu icon on large display */
-#menu_icon{
+#menu_icon {
   display: none;
 }
 
 /* Display navbar items horizontally and center them */
-nav ul{
-
-  display:flex;
+nav ul {
+  display: flex;
   list-style: none;
   position: relative;
-  top:50%;
-  left:10%;
-  transform: translate(0%,-50%);
-  
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+}
+#menu_links{
+  display: flex;
 }
 /* add padding between the nav items */
 nav ul li {
   padding-left: 100px;
-  color:white;
+  color: white;
   font-weight: 700;
   font-size: 18px;
-  }
+}
 
 /* Add css rule for sticky header */
 
-.sticky{
+.sticky {
   position: fixed;
-  top:0px;
+  top: 0px;
   opacity: 0.5;
   width: 100%;
 }
 
-.sticky ::after{
+.sticky ::after {
   padding-top: 100px;
 }
 
-@media only screen and (max-width:400px){
+/* Site title */
+nav #title {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 36px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 400px) {
   /* Adjust the position of the banner image for mobile view. */
-  .banner_section{
+  .banner_section {
     background-position: bottom;
-    height:300px;
+    height: 300px;
   }
   /* Hide menu items on the mobile view */
-  #menu_links{
+  #menu_links {
+    /* display: none; */
     display: none;
+    position: absolute;
+    margin-top: 0px;
+    top:0px;
+    left: -120px;
+    background-color:rgba(210, 215, 211, 0.9);
+    padding-top: 20px;
+    width: 300px;
+    height:100vh;
+    transform: translate(0,0);
+    border:0;
+    
+  }
+  #menu_links li{
+    color:black;
+    font-size: 24px;
+    padding-bottom: 18px;
   }
   /* Display hamburger menu icon on mobile view. */
-  #menu_icon{
+  #menu_icon {
     display: block;
-    width:48px;
-    float:right;
-    margin-right:16px;
-    position:relative;
-    top:50%;
-    transform: translate(0,-50%);}
+    width: 48px;
+    float: right;
+    margin-right: 16px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  /* Adjust the site title font for mobile view. */
+  nav #title {
+    font-size: 24px;
+  }
 }
