@@ -22,6 +22,10 @@ nav {
   background-color: green;
   
 }
+/* hide the hamburger menu icon on large display */
+#menu_icon{
+  display: none;
+}
 
 /* Display navbar items horizontally and center them */
 nav ul{
@@ -56,8 +60,22 @@ nav ul li {
 }
 
 @media only screen and (max-width:400px){
+  /* Adjust the position of the banner image for mobile view. */
   .banner_section{
     background-position: bottom;
     height:300px;
   }
+  /* Hide menu items on the mobile view */
+  #menu_links{
+    display: none;
+  }
+  /* Display hamburger menu icon on mobile view. */
+  #menu_icon{
+    display: block;
+    width:48px;
+    float:right;
+    margin-right:16px;
+    position:relative;
+    top:50%;
+    transform: translate(0,-50%);}
 }
