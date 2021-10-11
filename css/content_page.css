@@ -9,7 +9,7 @@
   display: block;
   padding-left: 80px;
   padding-right: 80px;
-  padding-top:40px;
+  margin-top:40px;
   text-decoration: none;
   color:#F77731;
   font-size: 24px;
@@ -17,5 +17,5 @@
   
 }
 .sidebar a:last-child{
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
