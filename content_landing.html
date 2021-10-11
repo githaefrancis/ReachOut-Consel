@@ -9,16 +9,21 @@
 </head>
 <body>
   <div class="sidebar">
-    <a href="content.html" target="display_iframe">Suicidal Ideation</a>
-    <a href="content.html" target="display_iframe">Addiction</a>
-    <a href="content.html" target="display_iframe">Loss</a>
-    <a href="content.html" target="display_iframe">Anxiety</a>
-    <a href="content.html" target="display_iframe">Relationship</a>
-    <a href="content.html" target="display_iframe">Depression</a>
+    <button id="suicidal_ideation" onclick="displayContent(this.id)">Click here</button>
+   <a href="content.html" onclick="displayContent(this.id)" id="suicidal_ideation" target="display_iframe">Suicidal Ideation</a>
+   <a href="content.html" onclick="displayContent(this.id)" id="addiction" target="display_iframe">Addiction</a>
+   <a href="content.html" onclick="displayContent(this.id)" id="loss" target="display_iframe">Loss</a>
+   <a href="content.html" onclick="displayContent(this.id)" id="anxiety" target="display_iframe">Anxiety</a>
+   <a href="content.html" onclick="displayContent(this.id)" id="relationship" target="display_iframe">Relationship</a>
+   <a href="content.html" onclick="displayContent(this.id)" id="depression" target="display_iframe">Depression</a>
 
   </div>
-  <div class="content">
-    <iframe src="content.html" frameborder="1" id="display_iframe" width="60%"></iframe>
+  <div class="content" id="first_div">
+   <iframe src="content.html" frameborder="1" name="display_iframe" id="display_iframe" width="60%" onload="defaultIframe()"></iframe>
   </div>
+  <!-- <button id="second">Hello</button> -->
 </body>
+<script src="js/content.js">
+
+</script>
 </html>

@@ -10,6 +10,10 @@
   padding-left: 80px;
   padding-right: 80px;
   padding-top:40px;
+  text-decoration: none;
+  color:#F77731;
+  font-size: 24px;
+  font-weight: 700;
   
 }
 .sidebar a:last-child{
