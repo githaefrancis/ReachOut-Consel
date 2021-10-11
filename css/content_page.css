@@ -1,0 +1,17 @@
+/* place the sidebar to the left */
+.sidebar{
+  float:left;
+  background-color: #F7F7F7;
+  margin-right: 20px;
+}
+
+.sidebar a{
+  display: block;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top:40px;
+  
+}
+.sidebar a:last-child{
+  padding-bottom: 80px;
+}
