@@ -1,1 +1,31 @@
 /* This file contains css rules for the website */
+
+/* Css rules for the footer begin here */
+
+.column, .column2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#logo {
+  width: 400px;
+}
+.links {
+  margin-top: 40px;
+}
+.Quote {
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  color: #faf0ea;
+}
+.links h3, .info h3, .contacts h3 {
+  color:  #F77731;
+}
+.links a:hover, .info a:hover, .contacts a:hover, .copyrights a:hover {
+  color:  #F77731;
+}
+.links a, .info a, .contacts a, .copyrights a {
+color:  black;
+text-decoration: none;
+}
