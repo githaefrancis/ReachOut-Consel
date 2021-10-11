@@ -48,7 +48,7 @@ function displayContent(id) {
 
 //function to set the content on the iframe
 function defaultIframe(){
-  document.getElementById("display_iframe").contentDocument.getElementById("category_content").innerHTML=content;
-
+  var populate=document.getElementById("display_iframe").contentDocument.getElementById("content_description");
+  populate.innerHTML=content;
 }
 
