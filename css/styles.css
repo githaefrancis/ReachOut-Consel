@@ -1,4 +1,26 @@
 
+/* Stories,features and video*/
+.educational_videos_section{
+    
+    background-color: #f7f7f7;
+}
+.col-sm-6{
+background-color: #518819;
+padding: 20PX;
+margin: auto;
+}
+
+.row{
+    background-color:#f7f7f7;
+}
+
+h3{
+ align-items: center;
+ color: #f77731;
+  text-align: center;
+}
+
+
 /* CSS FOR CATEGORIES SECTION ADDED BY SAM */
 .booking {
     display: flex;
