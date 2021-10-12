@@ -1,7 +1,18 @@
+var suicideIdeation={
+
+  "title":"Suicide Ideation",
+  "description":"Suicide are the notions",
+  "expertAdvice":"Sit and reflect on the better days.Things could get back to these."
+}
+
+
+
+
+
 // initialize the returned content -result
 var content;
 if (content==null){
-var content="We stand against suicide"
+var content=suicideIdeation
 }
 
 
@@ -21,7 +32,7 @@ function displayContent(id) {
   console.log(id);
   // display content based on the clicked button
   if (id === "suicidal_ideation") {
-    content="We stand against Suicide";
+    content=suicideIdeation;
     
   }
 
@@ -48,7 +59,12 @@ function displayContent(id) {
 
 //function to set the content on the iframe
 function defaultIframe(){
-  var populate=document.getElementById("display_iframe").contentDocument.getElementById("content_description");
-  populate.innerHTML=content;
+  var title=document.getElementById("display_iframe").contentDocument.getElementById("content_heading");
+  var advice=document.getElementById("display_iframe").contentDocument.getElementById("content_advice");
+  var counsellor_email=document.getElementById("display_iframe").contentDocument.getElementById("counsellor_email");
+  var description=document.getElementById("display_iframe").contentDocument.getElementById("content_description");
+  description.innerHTML=content.description;
+  title.innnerHTML=content.title;
+  advice.innerHTML=content.expertAdvice;
 }
 
