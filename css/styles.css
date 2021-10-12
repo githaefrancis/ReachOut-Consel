@@ -10,9 +10,11 @@ margin: auto;
 }
 
 .row{
-    background-color: grey;
+    background-color:#f7f7f7;
 }
 
-body{
-    background-color: #518819;
+h3{
+ align-items: center;
+ color: #f77731;
+  text-align: center;
 }
