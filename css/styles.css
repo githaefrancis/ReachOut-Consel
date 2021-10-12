@@ -1,3 +1,4 @@
+
 /* Stories,features and video*/
 .educational_videos_section{
     
@@ -18,3 +19,303 @@ h3{
  color: #f77731;
   text-align: center;
 }
+
+
+/* CSS FOR CATEGORIES SECTION ADDED BY SAM */
+.booking {
+    display: flex;
+    background-color: #F7F7F7;
+    height: fit-content;
+    padding: 10px;
+    
+}
+.personal-struggles {
+    float: left;
+    width: 100%;
+    margin-left: 300px;
+    padding-right: 00px;
+}
+.situations {
+    float: right;
+    width: 100%;
+}
+
+
+.booking {
+    padding-left: 100px;
+}
+
+.booking-item {
+    
+    background-color: white;
+    padding: 5px;
+}
+
+.booking-item-row {
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.booking-one {
+    
+    width: 350px;
+    height: 400px;
+    background-color: #518819;
+    border-radius: 50px 50px 50px 50px;
+}
+.booking-one h4 {
+    font-weight: 5rem;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 80px;
+    color: #F29F05;
+}
+.booking-one p {
+    margin-top: 0px;
+    padding: 00px;
+    
+    
+}
+
+.booking-descr {
+    position: relative;
+    justify-content: space-between;
+}
+
+.booking-descr img {
+    margin-left: 0px;
+    width: 350px;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+.booking-descr p {
+    font-size: 1.15rem;
+    text-align: center;
+}
+#init-btn {
+    background-color: #F29F05;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin-left: 95px;
+    margin-bottom: 15px;
+}
+/* END OF CSS FOR CATEGORIES SECTION  */
+
+/* This file contains css rules for the website */
+
+
+/* Css rules for the footer begin here */
+
+.column, .column2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#logo {
+  width: 400px;
+}
+.links {
+  margin-top: 40px;
+}
+.Quote {
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  color: #faf0ea;
+}
+.links h3, .info h3, .contacts h3 {
+  color:  #F77731;
+}
+.links a:hover, .info a:hover, .contacts a:hover, .copyrights a:hover {
+  color:  #F77731;
+}
+.links a, .info a, .contacts a, .copyrights a {
+color:  black;
+text-decoration: none;
+}
+.socials img {
+  height: 50px;
+}
+.copyrights p {
+margin-left: 450px;
+font-weight: bolder;
+}
+.copyrights{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.Quote q{
+font-weight: bolder;
+}
+footer {
+  background-color: #518819;
+}
+
+/* Css rules for footer end here */
+
+/* css rules for the banner section */
+/* Remove default margins */
+* {
+  margin: 0;
+  
+}
+body{
+  overflow-x: hidden;
+}
+html {
+  padding-top: 0px;
+}
+/* css rules for the banner section */
+.banner_section {
+  background-image: url("../depression.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+}
+/* css rules for the navigation bar */
+nav {
+  height: 80px;
+  background-color: #518819;
+}
+/* hide the hamburger menu icon on large display */
+#menu_icon {
+  display: none;
+}
+
+/* Display navbar items horizontally and center them */
+nav ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+}
+#menu_links{
+  display: flex;
+}
+/* add padding between the nav items */
+nav ul li {
+  padding-left: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Add css rule for sticky header */
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  opacity: 0.5;
+  width: 100%;
+  z-index: 5;
+}
+
+/* .sticky:after {
+  padding-top: 100px;
+} */
+
+/* Site title */
+nav #title {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 36px;
+  padding-left: 20px;
+}
+.introduction{
+
+  width:600px;
+  color:white;
+  background-color:#F77731;
+  float:right;
+  position: relative;
+  top:50%;
+  right:10%;
+  height:450px;
+  transform: translate(0%,-50%);
+}
+.introduction #heading{
+  text-align: center;
+  margin-top: 40%;
+  transform: translate(0%,-50%);
+  padding-left:10px;
+  padding-right: 10px;
+  font-size:32px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 400px) {
+  /* Adjust the position of the banner image for mobile view. */
+  .banner_section {
+    background-position: bottom;
+    height: 300px;
+  }
+  /* Hide menu items on the mobile view */
+  #menu_links {
+    /* display: none; */
+    display: none;
+    position: absolute;
+    margin-top: 0px;
+    top:0px;
+    left: -120px;
+    background-color:#F7F7F7;
+    padding-top: 20px;
+    width: 300px;
+    height:100vh;
+    transform: translate(0,0);
+    border:0;
+    z-index: 3;
+    
+  }
+  #menu_links li{
+    color:black;
+    font-size: 24px;
+    padding-bottom: 18px;
+  }
+  /* Display hamburger menu icon on mobile view. */
+  #menu_icon {
+    display: block;
+    width: 48px;
+    float: right;
+    margin-right: 16px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  /* Adjust the site title font for mobile view. */
+  nav #title {
+    font-size: 24px;
+  }
+  .introduction{
+
+    width:fit-content;
+    color:white;
+    background-color:#F77731;
+    position: relative;
+    top:455px;
+    right:0%;
+    height:fit-content; 
+    transform: translate(0%,-50%);
+    margin-top: 0px;
+  }
+  .introduction #heading{
+    text-align: center;
+    margin-top: 40%;
+    transform: translate(0%,-50%);
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:18px;
+    font-weight: 500;
+    height: fit-content;
+  }
+}
+
+/* css rules for the banner section */
+
