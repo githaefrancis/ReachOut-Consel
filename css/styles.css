@@ -37,6 +37,10 @@ text-decoration: none;
 margin-left: 450px;
 font-weight: bolder;
 }
+.copyrights{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
 .Quote q{
 font-weight: bolder;
 }
