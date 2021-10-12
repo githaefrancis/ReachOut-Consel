@@ -103,6 +103,7 @@ nav ul li {
   top: 0px;
   opacity: 0.5;
   width: 100%;
+  z-index: 5;
 }
 
 /* .sticky:after {
