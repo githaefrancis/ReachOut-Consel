@@ -6,14 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/styles.css">
     
 </head>
 <body>
+    <nav id="nav">
+        <!-- <h1 id="title">Reachout Consel</h1> -->
+        <h1 id="title"><img class="logo" src="logo_final.png" alt=""></h1>
+        <ul id="menu_links">
+          <li><a href="#"> HOME</a></li>
+          <li><a href="content_landing.html"> TOPICS</a></li>
+          <li><a href="videos.html"> RESOURCES</a></li>
+          <li><a href="form.html">  TALK TO US </a></li>
+          <li> <a href="about.html"> ABOUT</a></li>
+        </ul>
+        <a href="javascript:void(0)" onclick="showMenu()"
+          ><img id="menu_icon" src="hamburger_icon.png" alt="menu icon"
+        /></a>
+      </nav>
+
     <div id="wrapper">
 
         <form id="pad" method="get" action="">
     
-            <div id="margin">Your Name/ Alias: <input id="title" type="text" name="title"></div>
+            <div id="margin">Your Name/ Alias: <input id="form_title" type="text" name="title"></div>
             <textarea placeholder="Write us a note on how we can help you" id="text" name="text" rows="4"></textarea>  
             <br>
             <input id="button" type="submit" value="Seek Help">
@@ -21,6 +37,58 @@
         </form>
     
     </div>
+    <div class="footer_section">
+        <!-- Grouping for column styling -->
+        <footer>
+    <div class="column">
+    
+      <img id="logo" src="logo.png" alt="Logo">
+    
+     <!-- Adding links to more information on counselling practices -->
+      <div class="links">
+        <h3>Relatable links</h3>
+    <p><a href="https://www.therapybyshannon.com/blog-2/2019/1/14/7-things-counseling-should-and-shouldnt-be" target="blank"> 7 Things Counseling shouls and shouldn't be.</a></p>
+    <p><a href="https://www.google.com/search?sxsrf=AOaemvLb1eh-Wg1YTnO0ukP4k4fwOP0pxA:1633944253437&q=5+facts+about+counseling&sa=X&ved=2ahUKEwiZ3bvWhMLzAhXT8OAKHRNUDLsQ1QJ6BAgtEAE" target="blank">5 Facts about counseling.</a></p>
+    <p><a href="https://medcraveonline.com/JPCPY/the-effect-of-psychological-counseling-on-mental-health.html" target="blank">Effect of Counselling on mental health.</a></p>
+      </div>
+      <!-- Adding quotes -->
+      <div class="Quote">
+    <q> <em> If we have no peace, it is because we have forgotten that we belong to each other.</q><p>― Mother Teresa. </em></p> 
+      </div>
+    
+    </div>
+    
+    
+     <!-- Grouping together for styling -->
+     <div class="column2">
+    
+      <div class="info">
+    <h3>Information</h3>
+    <p><a href="#About Us">About Us</a></p>
+    <p><a href="#Contact Us">Contact Us</a></p>
+    <p> <a href="Support Us"> Support Us</a></p>
+      </div>
+    
+      <div class="contacts">
+    <h3>Contact Us</h3>
+    <p>+02234567778</p>
+    <p><a href="jwnjoroge4@gmail.com">jwnjoroge4@gmail.com</a></p>
+      </div>
+    
+      <div class="socials">
+    <a href="twitter.com"><img src="https://cliply.co/wp-content/uploads/2021/09/CLIPLY_372109260_TWITTER_LOGO_400.gif" alt=" twitter logo"></a>
+    <a href="whatsapp.com"><img src="https://cliply.co/wp-content/uploads/2021/08/372108180_WHATSAPP_ICON_400.gif" alt="whatsapp logo"></a>
+      </div>
+    
+    </div>
+    
+     <!-- Last part of the footer -->
+     <div class="copyrights">
+      <p>Copyright &copy 2021 | All rights reserved | <a href="https://en.wikipedia.org/wiki/Online_counseling">License</a> | <a href="https://www.onlinetherapy.com/terms-and-conditions/">Terms and Services.</a></p>
+        </div>
+      </footer>
+        </div>
 </body>
 <script src="js/form.js"></script>
+<script src="js/index.js"></script>
 </html>
