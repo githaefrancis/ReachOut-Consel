@@ -1,6 +1,7 @@
 /* place the sidebar to the left */
 *{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+overflow-x: hidden;
 }
 .sidebar{
   float:left;
@@ -14,7 +15,7 @@
   padding-right: 80px;
   margin-top:40px;
   text-decoration: none;
-  color:#F77731;
+  color:#F29A13;
   font-size: 24px;
   font-weight: 700;
   
@@ -23,11 +24,17 @@
   margin-bottom: 80px;
 }
 
+.sidebar a[target="display_iframe"]:active{
+
+color:#518819;
+}
+
 /* add rounded corner chat bubble */
 
 #content_description,.bubble-left{
   background-color: #518819;
-  height:100px;
+  min-height: 100px;
+  height:fit-content;
   width:400px;
   border-top:15px solid transparent;
   border-right:20px solid transparent;
@@ -35,21 +42,29 @@
   border-top-right-radius:10px ;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 30px;
+  color:white;
+  font-weight: 400;
+  font-size: 26px;
   /* border-bottom:7px solid #fff; */
 }
 
 /* reply bubble */
 #content_Advice,.bubble-right{
   background-color:#518819;
-  height:100px;
-  width:400px;
+  min-height:100px;
+  height: fit-content;
+  width:600px;
   border-top:15px solid transparent;
   border-left:20px solid transparent;
   border-right:15px solid #F7F7F7;
   border-top-right-radius:10px ;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 30px;
-  margin-left: 50%;
+  margin-left: 30%;
+  margin-top:20%;
+  color:white;
+  font-weight: 400;
+  font-size: 26px;
   /* border-bottom:7px solid #fff; */
   /* transform: translate(80%,0%); */
 
@@ -60,29 +75,62 @@
 #display_iframe{
 
   background-color: #F7F7F7;
+  width: 80%;
 }
 
 .chat_span{
-  display: flex;
-  justify-content: center;
-  margin-left:40%;
-  transform: translate(-50%,0);
+  /* display: flex;
+  justify-content: flex-end; */
+  /* margin-left:40%;
+  transform: translate(-50%,0); */
   border-radius: 20px;
-  background-color: orange;
-  padding:5px;
+  /* background-color: orange; */
+  /* padding:5px; */
   font-size: 24px;
   width:300px;
+  margin-left: 60%;
+  transform: translate(40%,-50%);
+  font-size: 18px;
 }
 
+.meeting_section{
+
+  width: 100%;
+  text-align: center;
+  background-color: #F29A13;
+  height:200px;
+}
+
+.meeting_category{
+  padding:20px;
+}
 
 body p{
   padding-left:10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  padding-top: auto;
 }
 
 .chat_heading{
-  background-color: orange;
+  background-color: #F29A13;
   height:80px;
   margin-top: 0;
   text-align: center;
   padding-top:15px;
+}
+
+#meeting_table{
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  padding-top: 20px;
+  
+}
+
+#meeting_table td{
+  width:200px;
 }
