@@ -1,0 +1,89 @@
+/* Styling the about page begins here */
+.about h1, .contact h1, .Founders h1{
+  color: #518819 ;
+}
+.about_us {
+  background-color: #F7F7F7;
+  text-align: center;
+}
+/* Style Founders section */
+.Founders img{
+height: 200px;
+width: 200px;
+
+}
+
+.founders_img {
+  display: flex;
+  clear: both;
+  justify-content: space-around;
+
+}
+.founders_img p{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+/* Styling about section */
+.about {
+  width: 600px;
+}
+.about_img {
+float: right;
+margin-top: 10px;
+background-image: url(https://images.pexels.com/photos/168453/pexels-photo-168453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+height: 400px;
+width: 650px;
+}
+.about_img img {
+  height: 250px;
+  position: relative;
+}
+.about_img img:nth-child(2){
+  top: 100px;
+}
+.about_img img:last-child{
+  top: 150px;
+}
+.about h2, h3 {
+  color: #F29A13 ;
+}
+/* Styling the contact section */
+.contact {
+  width: 650px;
+  float: right;
+  margin-right: 40px;
+}
+.contact a {
+  background-color: #F29A13;
+  padding: 10px;
+  border-radius: 100%;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:hover {
+color: #518819;
+}
+.contact_img img{
+  height: 400px;
+width: 300px;
+ /* Adding styles to different sections */
+}
+hr {
+  width: 100px;
+  height: 4px;
+  background-color: #F29A13;
+  border: none;
+}
+.Contact {
+  margin-top: 150px;
+}
+.Founders {
+  margin-top: 80px;
+}
+span{
+  font-weight: bolder;
+  margin-top: 10px;
+  color: #F29A13;
+}
