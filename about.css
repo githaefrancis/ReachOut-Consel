@@ -32,6 +32,9 @@ width: 200px;
 .about {
   width: 600px;
 }
+.about {
+  text-align: left;
+}
 .about_img {
 float: right;
 margin-top: 10px;
