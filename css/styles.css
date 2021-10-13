@@ -45,20 +45,21 @@ nav ul {
 }
 /* add padding between the nav items */
 nav ul li {
-  padding-left: 100px;
+  padding-right: 100px;
   color: white;
   font-weight: 700;
   font-size: 18px;
 }
 nav ul li a{
 text-decoration: none;
-color:#F29A13;
+color:#FFFFFF;
 
 }
 
 nav ul li a:hover{
    
-  color:#FFFFFF;
+  
+  color:#F29A13;
   
   }
 
@@ -82,7 +83,7 @@ nav #title {
   top: 50%;
   transform: translate(0, -50%);
   font-size: 36px;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 .introduction{
 
@@ -104,6 +105,11 @@ nav #title {
   padding-right: 10px;
   font-size:32px;
   font-weight: 700;
+}
+
+.logo{
+  width:500px;
+  height: 60%;
 }
 
 @media only screen and (max-width: 400px) {
@@ -174,5 +180,9 @@ nav #title {
     font-size:18px;
     font-weight: 500;
     height: fit-content;
+  }
+  .logo{
+    width:200px;
+    height: 60%;
   }
 }
