@@ -21,17 +21,18 @@
       margin-left:12px;
       margin-bottom:20px;
       -o-user-select: none;
-      user-select: none; 
+      user-select: none;
+      font-size: 26px; 
   }
   
   #title {
       height:28px;
-      width:220px;
+      width:400px;
       font-weight: bold;
       background-color:transparent;
       border-bottom:3px solid #FFF;
       color:black;
-      font-size:40px;
+      font-size:26px;
       font-family:Courier, monospace;
   }
   #button {
