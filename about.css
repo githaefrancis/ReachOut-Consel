@@ -1,3 +1,4 @@
+/* Styling the about page begins here */
 .about h1, .contact h1, .Founders h1{
   color: #518819 ;
 }
@@ -23,6 +24,7 @@ width: 200px;
   flex-direction: column-reverse;
 
 }
+/* Styling about section */
 .about {
   width: 600px;
 }
