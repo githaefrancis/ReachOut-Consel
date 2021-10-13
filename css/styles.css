@@ -22,7 +22,8 @@ h3{
 
 
 /* CSS FOR CATEGORIES SECTION ADDED BY SAM */
-.booking {
+
+/* .booking {
     display: flex;
     background-color: #F7F7F7;
     height: fit-content;
@@ -101,7 +102,7 @@ h3{
     border-radius: 40px;
     margin-left: 95px;
     margin-bottom: 15px;
-}
+} */
 /* END OF CSS FOR CATEGORIES SECTION  */
 
 /* This file contains css rules for the website */
@@ -329,6 +330,7 @@ nav #title {
     height:fit-content; 
     transform: translate(0%,-50%);
     margin-top: 0px;
+    
   }
   .introduction #heading{
     text-align: center;
@@ -348,4 +350,68 @@ nav #title {
 
 /* css rules for the banner section */
 
+/* START OF CSS FOR NEW FEATURES SECTION  */
+.booking {
+  background-color: #F7F7F7;
+  padding: 0px 60px;
+  
+}
+.booking h1 {
+  text-align: center;
+  font-size: 35px;
+  text-decoration: wavy;
+}
+
+.booking-item-row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 40px; 
+}
+                      
+
+.booking-one p {
+  margin-top: 0px;
+  padding: 00px;  
+}
+
+.booking-descr {
+  position: relative;
+  justify-content: space-between;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #518819;
+  height: 450px;
+  width: 450px;
+}
+.booking-descr h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: oblique;
+  margin-top: 20px; 
+  color: #F29F05;
+}
+
+.booking-descr img {
+  margin-left: 0px;
+  width: 450px;
+  height: 220px;
+}
+.booking-descr p {
+  font-size: 1.15rem;
+  text-align: center;
+}
+#init-btn {
+  background-color: #F29F05;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  
+}
+/* END OF NEW CSS FOR NEW FEATURES SECTION  */
 /* css for video section title */
