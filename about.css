@@ -61,8 +61,6 @@ width: 650px;
   color: white;
   font-weight: bolder;
   text-decoration: none;
-  
-
 }
 a:hover {
 color: #518819;
@@ -70,7 +68,7 @@ color: #518819;
 .contact_img img{
   height: 400px;
 width: 300px;
- 
+ /* Adding styles to different sections */
 }
 hr {
   width: 100px;
