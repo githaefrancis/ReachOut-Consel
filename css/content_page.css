@@ -76,6 +76,9 @@ color:#518819;
 
   background-color: #F7F7F7;
   width: 80%;
+  height: 960px;
+  overflow: hidden;
+  border:none;
 }
 
 .chat_span{
