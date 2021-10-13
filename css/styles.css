@@ -172,10 +172,10 @@ html {
 }
 /* css rules for the banner section */
 .banner_section {
-  background-image: url("../depression.jpg");
+  background-image: url("../img/depression.jpg");
   background-size: cover;
   background-position: right;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
 }
 /* css rules for the navigation bar */
