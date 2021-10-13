@@ -254,6 +254,7 @@ nav #title {
   right:10%;
   height:450px;
   transform: translate(0%,-50%);
+  overflow:hidden;
 }
 .introduction #heading{
   text-align: center;
