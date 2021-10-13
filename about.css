@@ -1,4 +1,8 @@
 /* Styling the about page begins here */
+.about_us{
+  margin-right:50px;
+  margin-left: 50px;
+}
 .about h1, .contact h1, .Founders h1{
   color: #518819 ;
 }
