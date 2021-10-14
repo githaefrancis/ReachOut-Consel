@@ -140,3 +140,10 @@ body p{
 #meeting_table td{
   width:200px;
 }
+
+#meeting_table a{
+  text-decoration: none;
+  color:#518819;
+  font-weight: 700;
+  font-size: 24;
+}
