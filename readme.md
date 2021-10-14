@@ -1,12 +1,17 @@
 # ReachOut Consel
 
-[Description](#Description)
-[Authors' information](#Authors'-information)
-[Collaborators](#Collaborators)
-[Design](#Design)
-[Setup](#Setup)
-[Live Link](#Live-link)
-[License](#License)
+## Table of content
+
+| Section       | Link                                          |
+| ------------- | --------------------------------------------- |
+| Description   | [Description](#Description)                   |
+| Authors       | [Authors' information](#Authors'-information) |
+| Collaborators | [Collaborators](#Collaborators)               |
+| Design        | [Design](#Design)                             |
+| Technologies  | [Technologies](#Technologies)                 |
+| Setup         | [Setup](#Setup)                               |
+| Live Link     | [Live Link](#Live-link)                       |
+| License       | [License](#License)                           |
 
 ## Description
 
@@ -15,19 +20,27 @@ ReachOut Consel is an online service that helps people going through pyschologic
 
 </p>
 
-
 ## Authors' information
+
 The design and implementation of this website was carried out by a group of 4 collaborators
 
 ## Collaborators
-
 
 1. Francis Githae.
 2. Jane Njoroge.
 3. Clinton Otieno.
 4. Samuel Moringa
 
-## Design 
+## Technologies
+
+The following Technologies were utilized:
+1. HTML
+2. CSS
+3. BOOTSTRAP
+4. JAVASCRIPT
+
+## Design
+
 [ReachOut Consel Figma Design](https://www.figma.com/file/I9Z56kqMQLSCCmnBnC11K8/ReachOut-Consel?node-id=0%3A1)
 
 ## Setup
@@ -64,5 +77,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </p>
-
-
