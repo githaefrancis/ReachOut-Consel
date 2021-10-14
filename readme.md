@@ -5,7 +5,7 @@
 | Section       | Link                                          |
 | ------------- | --------------------------------------------- |
 | Description   | [Description](#Description)                   |
-| Authors       | [Authors' information](#Authors'information) |
+| Authors       | [Authors' information](#Authors-information) |
 | Collaborators | [Collaborators](#Collaborators)               |
 | Design        | [Design](#Design)                             |
 | Technologies  | [Technologies](#Technologies)                 |
@@ -20,7 +20,7 @@ ReachOut Consel is an online service that helps people going through pyschologic
 
 </p>
 
-## Authors' information
+## Authors information
 
 The design and implementation of this website was carried out by a group of 4 collaborators
 
