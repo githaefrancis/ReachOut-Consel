@@ -5,7 +5,7 @@
 | Section       | Link                                          |
 | ------------- | --------------------------------------------- |
 | Description   | [Description](#Description)                   |
-| Authors       | [Authors' information](#Authors'-information) |
+| Authors       | [Authors' information](#Authors'information) |
 | Collaborators | [Collaborators](#Collaborators)               |
 | Design        | [Design](#Design)                             |
 | Technologies  | [Technologies](#Technologies)                 |
