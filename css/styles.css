@@ -16,7 +16,7 @@ margin: auto;
 
 h3{
  align-items: center;
- color: #f77731;
+ color: #F29A13;
   text-align: center;
 }
 
@@ -128,10 +128,10 @@ h3{
   color: #faf0ea;
 }
 .links h3, .info h3, .contacts h3 {
-  color:  #F77731;
+  color:  #F29A13;
 }
 .links a:hover, .info a:hover, .contacts a:hover, .copyrights a:hover {
-  color:  #F77731;
+  color:  #F29A13;
 }
 .links a, .info a, .contacts a, .copyrights a {
 color:  black;
@@ -390,7 +390,7 @@ nav #title {
   font-weight: bolder;
   font-style: oblique;
   margin-top: 20px; 
-  color: #F29F05;
+  color: #F29A13;
 }
 
 .booking-descr img {
