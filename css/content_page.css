@@ -28,6 +28,9 @@ overflow-x: hidden;
 
 color:#518819;
 }
+.active_link{
+  color:#518819 !important;
+}
 
 /* add rounded corner chat bubble */
 

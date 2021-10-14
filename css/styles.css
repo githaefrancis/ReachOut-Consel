@@ -403,7 +403,7 @@ nav #title {
   text-align: center;
 }
 #init-btn {
-  background-color: #F29F05;
+  background-color: #F29A13;
   padding: 10px 30px;
   border: none;
   outline: none;
@@ -411,7 +411,17 @@ nav #title {
   margin-left: 150px;
   margin-bottom: 15px;
   font-weight: bold;
+  margin-top:50px;
   
+}
+#highlight{
+  height:150px;
+  background-color: #F29A13;
+  text-align: center;
+}
+#highlight p{
+  padding-top: 50px;
+  font-size: 28px;
 }
 /* END OF NEW CSS FOR NEW FEATURES SECTION  */
 /* css for video section title */
