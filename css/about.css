@@ -5,6 +5,11 @@
 }
 .about h1, .contact h1, .Founders h1{
   color: #518819 ;
+  
+}
+.about #our_story{
+  clear:left;
+  margin-bottom: 10px;
 }
 .about_us {
   background-color: #F7F7F7;
@@ -31,10 +36,12 @@ width: 200px;
 /* Styling about section */
 .about {
   width: 600px;
+  padding-left: 10px;
 }
 .about {
-  text-align: left;
+  text-align: center;
 }
+
 .about_img {
 float: right;
 margin-top: 10px;
@@ -60,14 +67,19 @@ width: 650px;
   width: 650px;
   float: right;
   margin-right: 40px;
+  
 }
-.contact a {
+.contact p a {
   background-color: #F29A13;
   padding: 10px;
   border-radius: 100%;
   color: white;
   font-weight: bolder;
   text-decoration: none;
+  margin-top:20px;
+  position: relative;
+  top:30px;
+  
 }
 a:hover {
 color: #518819;
@@ -82,6 +94,9 @@ hr {
   height: 4px;
   background-color: #F29A13;
   border: none;
+  margin:0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .Contact {
   margin-top: 150px;

@@ -27,12 +27,12 @@
 
     <div id="wrapper">
 
-        <form id="pad" method="get" action="">
+        <form id="pad" method="" action="">
     
             <div id="margin">Your Name/ Alias: <input id="form_title" type="text" name="title"></div>
             <textarea placeholder="Write us a note on how we can help you" id="text" name="text" rows="4"></textarea>  
             <br>
-            <input id="button" type="submit" value="Seek Help">
+            <input id="button" type="submit" onclick="submitForm(document.getElementbyId('margin').value,document.getElementbyId('text').value)" value="Seek Help">
             
         </form>
     
@@ -42,7 +42,7 @@
         <footer>
     <div class="column">
     
-      <img id="logo" src="logo.png" alt="Logo">
+      <img id="logo" src="img/logo_final.png" alt="Logo">
     
      <!-- Adding links to more information on counselling practices -->
       <div class="links">
